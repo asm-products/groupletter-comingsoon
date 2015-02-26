@@ -97,7 +97,7 @@ gulp.task('connect', function() {
 
 /* Run 'clean' and after that 'deploy' */
 gulp.task('build', ['clean'], function () {
-  // gulp.run() is depricated. Figure out another way to do this.
+  // @TODO gulp.run() is deprecated. Figure out another way to do this.
   gulp.run('deploy');
 });
 
