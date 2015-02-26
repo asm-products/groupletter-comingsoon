@@ -1,0 +1,9 @@
+section[role="main"] {
+  padding: 1em 1em 5em;
+
+  @include desktop {
+    margin-right: auto;
+    margin-left: auto;
+    width: $page-width;
+  }
+}
