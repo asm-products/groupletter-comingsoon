@@ -2,10 +2,28 @@
 
 {% block content %}
 
-  <h1>Groupletter</h1>
-  <p class="tag-line">Group curated newsletters</p>
+ <header>
+       <div class="message-container">
+          <div class="main-message">
+            <div class="logo">
+              <img src="../assets/images/logo_2.png" alt="Groupletter logo">
+            </div>
+            <div class="message">
+                <h1 class="what-is-groupletter">Group curated newsletters</h1>
+                {% include '_chunks/_subscribe-form.html' %}
+            </div>
+        	</div>
+          </div>
+      </div>
+  </header>
+  <div class="content">
+    	<p class="what-is-groupletter">
+      		Groupletter allows groups to start a newsletter. The group fills the newsletter by adding links to the backlog and by voting on links already on the backlog. The more votes a link gets the higher the chances that the link ends up in the newsletter (configurable). This keeps the quality of the newsletter high.
+    	</p>
+  </div>
+
   {% include '_chunks/_about.html' %}
-  {% include '_chunks/_subscribe-form.html' %}
+  
   {% include '_chunks/_assembly.html' %}
 
 {% endblock %}
