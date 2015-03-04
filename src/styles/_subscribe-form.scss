@@ -7,7 +7,6 @@ input[type="email"] {
 
 input[type="submit"] {
   margin-top: 1em;
-
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
   background-image: -moz-linear-gradient(top, #3498db, #2980b9);
@@ -21,5 +20,6 @@ input[type="submit"] {
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
+  
   text-decoration: none;
 }
